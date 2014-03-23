@@ -1,8 +1,10 @@
-# holidays
+# lectionary
 
-[![Build Status](https://travis-ci.org/gudmundur/holidays.png)](https://travis-ci.org/gudmundur/holidays)
+[![Build Status](https://travis-ci.org/revdave33/lectionary.png)](https://travis-ci.org/revdave33/lectionary)
 
-Calculates holidays in a given year, currently only supports Icelandic holidays.
+Calculates Sunday names according to the Revised Common Lectionary.
+
+Currently not doing anything useful.
 
 # Example
 
@@ -59,3 +61,5 @@ MIT
 
 * [Árni Hermann](https://github.com/arnihermann) for telling me that there is a function for calculating holidays.
 * [Steinar Hugi](https://github.com/steinar) for giving me a python implementation.
+    "description": "Calculates holidays in a given year, currently only supports Icelandic holidays.",
+    "author": "Guðmundur Bjarni Ólafsson <gudmundur.bjarni@gmail.com>",
