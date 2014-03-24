@@ -15,7 +15,7 @@
     },
 
     "scripts": {
-        "test": "mocha test -R spec"
+        "test": "make test"
     },
 
     "devDependencies": {

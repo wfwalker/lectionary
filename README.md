@@ -2,55 +2,65 @@
 
 [![Build Status](https://travis-ci.org/revdave33/lectionary.png)](https://travis-ci.org/revdave33/lectionary)
 
-Calculates Sunday names according to the Revised Common Lectionary.
+The Revised Common Lectionary provides a three year cycle of Scripture
+readings for Christian churches that use it. This module does not provide the
+actual scripture readings, but it calculates the names and year of the Sundays
+and other days celebrated in the lectionary.
+
+This provides the calculation of the basic Lectionary services accepted by
+almost all of the churches that use the RCL. There are some non-Sunday days
+that are extensions of the basic dates that are not currently calculated.
 
 Currently not doing anything useful.
 
 # Example
 
 ``` js
-var holidays = require('holidays');
-var dates = holidays(2013);
-console.dir(dates);
+var lectionary = require('lectionary');
+var lectionaryDates = lectionary(2014, 4);
+console.dir(lectionaryDates);
 ```
 
 ***
 
 ```
-[ Tue Jan 01 2013 00:00:00 GMT+0000 (GMT),
-  Thu Mar 28 2013 00:00:00 GMT+0000 (GMT),
-  Fri Mar 29 2013 00:00:00 GMT+0000 (GMT),
-  Sun Mar 31 2013 00:00:00 GMT+0000 (GMT),
-  Mon Apr 01 2013 00:00:00 GMT+0000 (GMT),
-  Thu Apr 25 2013 00:00:00 GMT+0000 (GMT),
-  Wed May 01 2013 00:00:00 GMT+0000 (GMT),
-  Thu May 09 2013 00:00:00 GMT+0000 (GMT),
-  Sun May 19 2013 00:00:00 GMT+0000 (GMT),
-  Mon May 20 2013 00:00:00 GMT+0000 (GMT),
-  Mon Jun 17 2013 00:00:00 GMT+0000 (GMT),
-  Mon Aug 05 2013 00:00:00 GMT+0000 (GMT),
-  Tue Dec 24 2013 13:00:00 GMT+0000 (GMT),
-  Wed Dec 25 2013 00:00:00 GMT+0000 (GMT),
-  Thu Dec 26 2013 00:00:00 GMT+0000 (GMT),
-  Tue Dec 31 2013 13:00:00 GMT+0000 (GMT) ]
+[ 
+  {
+    "date": "Sun Apr 06 2014 00:00:00 GMT+0000 (GMT)",
+    "lectionaryYear": "A",
+    "lectionaryShortName": "Lent 5",
+    "lectionaryLongName": "Fifth Sunday of Lent"
+  },
+  {
+    "date": "Sun Apr 13 2014 00:00:00 GMT+0000 (GMT)",
+    "lectionaryYear": "A",
+    "lectionaryShortName": "Lent 6",
+    "lectionaryLongName": "Sixth Sunday of Lent"
+  } 
+ 
+]
 ```
 
 # Methods
 
 ``` js
-var holidays = require('holidays')
+var lectionary = require('lectionary')
 ```
 
-## holidays(year)
+## lectionary(year, month)
 
-Return an array with the holidays for a given year. Note that the hour part specifies after which hour in the day is it becomes a holiday.
+Return an array with the lectionary days for a given month. If the month is
+not provided will provide an array for the entire year.
+
+Each item in the array is a json object providing the date, lectionaryYear,
+lectionaryShortName, and lectionaryLongName.
 
 # Install
 
 With [npm](https://npmjs.org) do:
 
 ```
-npm install holidays
+npm install lectionary
 ```
 
 # License
@@ -59,7 +69,6 @@ MIT
 
 # Thanks
 
-* [Árni Hermann](https://github.com/arnihermann) for telling me that there is a function for calculating holidays.
-* [Steinar Hugi](https://github.com/steinar) for giving me a python implementation.
-    "description": "Calculates holidays in a given year, currently only supports Icelandic holidays.",
-    "author": "Guðmundur Bjarni Ólafsson <gudmundur.bjarni@gmail.com>",
+* ["Guðmundur Bjarni Ólafsson](https://github.com/gudmundur) for the basic module that calculated Icelandic holidays.
+* [Árni Hermann](https://github.com/arnihermann) for telling Guðmundur that there is a function for calculating holidays.
+* [Steinar Hugi](https://github.com/steinar) for giving Guðmundur a python implementation.

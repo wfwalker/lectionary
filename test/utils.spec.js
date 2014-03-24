@@ -1,26 +1,16 @@
 var assert = require('assert');
 
-var utils = require('./lib/utils');
-var holidays = require('./');
-
+var utils = require('../lib/utils');
 
 var datePart = function(date) {
     return date.toISOString().substring(0, 10);
-}
+};
 
 var assertDate = function(actual, expected) {
     assert.equal(datePart(actual), expected);
-}
+};
 
 describe('utils', function() {
-    describe('easter day', function() {
-        it('is correct for 2012, 2013 and 2014', function() {
-            assertDate(utils.easterDay(2012), '2012-04-08');
-            assertDate(utils.easterDay(2013), '2013-03-31');
-            assertDate(utils.easterDay(2014), '2014-04-20');
-        });
-    });
-
     describe('clone date', function() {
         it('creates a copy', function() {
             var d = new Date();
@@ -30,7 +20,7 @@ describe('utils', function() {
             c.setYear(1900);
             assert.notEqual(d.toString(), c.toString());
         });
-    })
+    });
 
     describe('offset days', function() {
         it('calculates next day', function() {
@@ -38,7 +28,7 @@ describe('utils', function() {
             var n = utils.offsetDays(d, 1);
 
             assert.ok(n.getFullYear() == 2013);
-            assert.ok(n.getMonth() == 0);
+            assert.ok(n.getMonth() === 0);
             assert.ok(n.getDate() == 2);
         });
 
@@ -47,7 +37,7 @@ describe('utils', function() {
             var n = utils.offsetDays(d, -1);
 
             assert.ok(n.getFullYear() == 2013);
-            assert.ok(n.getMonth() == 0);
+            assert.ok(n.getMonth() === 0);
             assert.ok(n.getDate() == 31);
         });
 
@@ -56,7 +46,7 @@ describe('utils', function() {
             var n = utils.offsetDays(d, 1);
 
             assert.ok(n.getFullYear() == 2014);
-            assert.ok(n.getMonth() == 0);
+            assert.ok(n.getMonth() === 0);
             assert.ok(n.getDate() == 1);
         });
     });
@@ -74,32 +64,32 @@ describe('utils', function() {
             assertDate(sunday,  '2013-01-06');
         });
     });
-});
 
-describe('holidays in Iceland in 2013', function() {
-    it('are correct', function() {
-        var days = holidays(2013);
-        var dates = days.map(function(d) { return datePart(d); });
+    describe('previous weekday', function() {
+        it('finds the previous weekdays before 2013-01-01', function() {
+            var day = new Date(2013, 0, 1);
 
-        var correctDates = [
-            '2013-01-01',
-            '2013-03-28',
-            '2013-03-29',
-            '2013-03-31',
-            '2013-04-01',
-            '2013-04-25',
-            '2013-05-01',
-            '2013-05-09',
-            '2013-05-19',
-            '2013-05-20',
-            '2013-06-17',
-            '2013-08-05',
-            '2013-12-24',
-            '2013-12-25',
-            '2013-12-26',
-            '2013-12-31'
-        ];
+            var tuesday = utils.previousWeekday(day, 2);
+            var thursday = utils.previousWeekday(day, 4);
+            var sunday = utils.previousWeekday(day, 0);
 
-        assert.deepEqual(dates, correctDates);
+            assertDate(tuesday, '2013-01-01');
+            assertDate(thursday,'2012-12-27');
+            assertDate(sunday,  '2012-12-30');
+        });
+    });
+
+    describe('ordinalize numbers', function() {
+        it('returns a string that ordinalizes an integer', function() {
+            var first = utils.ordinalize(1);
+            var second = utils.ordinalize(2);
+            var third = utils.ordinalize(3);
+            var tenth = utils.ordinalize(10);
+
+            assert.equal(first, "1st");
+            assert.equal(second, "2nd");
+            assert.equal(third, "3rd");
+            assert.equal(tenth, "10th");
+        });
     });
 });
