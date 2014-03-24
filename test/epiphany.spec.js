@@ -4,7 +4,7 @@ var epiphany = require('../lib/epiphany');
 
 describe('Season of Epiphany', function() {
   it('correct', function() {
-    var days = epiphany.epiphany(2014);
+    var days = epiphany(2014);
     var shortTitles = days.map(function(d) {
       return d.lectionaryShortName;
     })

@@ -4,7 +4,7 @@ var advent = require('../lib/advent');
 
 describe('Advent and Christmas Season', function() {
   it('correct', function() {
-    var days = advent.adventChristmas(2014);
+    var days = advent(2014);
     var shortTitles = days.map(function(d) {
       return d.lectionaryShortName;
     })

@@ -1,10 +1,10 @@
 var assert = require('assert');
 
-var season = require('../lib/pentecost');
+var pentecost = require('../lib/pentecost');
 
 describe('Season of Pentecost', function() {
   it('correct', function() {
-    var days = season.pentecost(2014);
+    var days = pentecost(2014);
     var shortTitles = days.map(function(d) {
       return d.lectionaryShortName;
     })

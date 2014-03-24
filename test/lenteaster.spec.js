@@ -1,10 +1,10 @@
 var assert = require('assert');
 
-var season = require('../lib/lenteaster');
+var lentEaster = require('../lib/lenteaster');
 
 describe('Season of Epiphany', function() {
   it('correct', function() {
-    var days = season.lentEaster(2014);
+    var days = lentEaster(2014);
     var shortTitles = days.map(function(d) {
       return d.lectionaryShortName;
     })
