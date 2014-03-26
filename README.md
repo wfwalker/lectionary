@@ -1,6 +1,6 @@
 # lectionary
 
-[![Build Status](https://travis-ci.org/revdave33/lectionary.png)](https://travis-ci.org/revdave33/lectionary)
+[![Build Status](https://travis-ci.org/revdave33/lectionary.png)](https://travis-ci.org/revdave33/lectionary) https://david-dm.org/revdave33/lectionary.png
 
 The Revised Common Lectionary provides a three year cycle of Scripture
 readings for Christian churches that use it. This module does not provide the
