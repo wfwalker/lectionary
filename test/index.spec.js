@@ -39,9 +39,9 @@ describe('church year for 2014', function() {
 
 describe('slicing one month out of church year', function() {
     it('has the right number of services', function() {
-        var jan = churchYear(2014, 1);
-        var april = churchYear(2014, 4);
-        var june = churchYear(2014, 6);
+        var jan = churchYear(2014, 0);
+        var april = churchYear(2014, 3);
+        var june = churchYear(2014, 5);
         // console.log(june);
 
         assert.equal(jan.length, 5);

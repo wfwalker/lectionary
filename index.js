@@ -1,3 +1,4 @@
+'use strict';
 var advent = require('./lib/advent');
 var epiphany = require('./lib/epiphany');
 var lentEaster = require('./lib/lenteaster');
@@ -13,7 +14,7 @@ module.exports = function(year, month) {
         var churchMonth = [];
 
         churchMonth = churchYear.filter(function (day) {
-            if (day.date.getMonth() === month-1) { return day; }
+            if (day.date.getMonth() === month) { return day; }
         } );
 
         return churchMonth;

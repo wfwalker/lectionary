@@ -12,13 +12,11 @@ This provides the calculation of the basic Lectionary services accepted by
 almost all of the churches that use the RCL. There are some non-Sunday days
 that are extensions of the basic dates that are not currently calculated.
 
-Currently not doing anything useful.
-
 # Example
 
 ``` js
 var lectionary = require('lectionary');
-var lectionaryDates = lectionary(2014, 4);
+var lectionaryDates = lectionary(2014, 3);
 console.dir(lectionaryDates);
 ```
 
@@ -50,11 +48,14 @@ var lectionary = require('lectionary')
 
 ## lectionary(year, month)
 
-Return an array with the lectionary days for a given month. If the month is
+NOTE: When providing the month, it follows the Javascript Date standard. January is 0, December is 11.
+
+Returns an array with the lectionary days for a given month. If the month is
 not provided will provide an array for the entire year.
 
 Each item in the array is a json object providing the date, lectionaryYear,
 lectionaryShortName, and lectionaryLongName.
+
 
 # Install
 
