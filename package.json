@@ -1,6 +1,6 @@
 {
     "name": "lectionary",
-    "version": "0.1.6",
+    "version": "0.1.7",
     "description": "Calculates Sunday names according to the Revised Common Lectionary..",
     "author": "David Morris <revdave33@gmail.com>",
     "license": "MIT",

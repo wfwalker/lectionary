@@ -23,7 +23,7 @@ describe('Season of Epiphany', function() {
       "Passion",
       "Holy Thursday",
       "Good Friday",
-      "Easter",
+      "Easter Day",
       "Easter 2",
       "Easter 3",
       "Easter 4",
@@ -31,7 +31,7 @@ describe('Season of Epiphany', function() {
       "Easter 6",
       "Easter 7",
       "Ascension",
-      "Pentecost",
+      "Pentecost Day",
       "Trinity",
     ];
 
