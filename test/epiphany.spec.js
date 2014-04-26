@@ -13,7 +13,7 @@ describe('Season of Epiphany', function() {
     // console.log(shortTitles);
 
     var correctTitles = [
-      "Epiphany Sunday",
+      "Epiphany Day",
       "Epiphany Day", 
       "Baptism",
       "Epiphany 2",
