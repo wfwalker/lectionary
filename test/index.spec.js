@@ -6,9 +6,23 @@ var datePart = function(date) {
     return date.toISOString().substring(0, 10);
 };
 
-describe('church year for 2014', function() {
+describe('day map for 2014', function() {
+    it('has Easter Day with proper long name', function() {
+        var dayMap = churchYear.dayMap(2014);
+        assert.equal(dayMap['Easter Day'].lectionaryLongName, 'Easter Sunday');
+    });
+});
+
+describe('season list for 2014', function() {
+    it('has 8 seasons', function() {
+        var seasons = churchYear.seasons(2014);
+        assert.equal(seasons.length, 8);
+    });
+});
+
+describe('day list for 2014', function() {
     it('has the right number of services', function() {
-        var days = churchYear(2014);
+        var days = churchYear.days(2014);
         // console.log(days);
 
         assert.equal(days.length, 62);
@@ -37,11 +51,11 @@ describe('church year for 2014', function() {
     });
 });
 
-describe('slicing one month out of church year', function() {
+describe('day list for individual months of 2014', function() {
     it('has the right number of services', function() {
-        var jan = churchYear(2014, 0);
-        var april = churchYear(2014, 3);
-        var june = churchYear(2014, 5);
+        var jan = churchYear.days(2014, 0);
+        var april = churchYear.days(2014, 3);
+        var june = churchYear.days(2014, 5);
         // console.log(june);
 
         assert.equal(jan.length, 5);
