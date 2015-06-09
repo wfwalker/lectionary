@@ -63,6 +63,10 @@ describe('day list', function() {
         var days = churchYear.days(2001);
     });
 
+    it('does not throw an exception for 2000', function() {
+        var days = churchYear.days(2000);
+    });
+
 });
 
 describe('day list for individual months of 2014', function() {

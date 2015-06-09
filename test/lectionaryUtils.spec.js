@@ -76,9 +76,13 @@ describe('lectionary utils', function() {
             assert.equal(yearB, 'B');
             assert.equal(yearC, 'C');
         });
-        it('is defined for 2001', function() {
-            var defined = lectUtils.liturgicalYearPreAdvent('2001');
-            assert.ok(defined != 'undefined');
+        it('is defined pre-advent for 2001', function() {
+            var defined = lectUtils.liturgicalYearPreAdvent(2001);
+            assert.equal(defined, 'C');
+        });
+        it('is defined in advent for 2000', function() {
+            var defined = lectUtils.liturgicalYearAdvent(2000);
+            assert.equal(defined, 'C');
         });
     });
 
