@@ -13,9 +13,14 @@ describe('day map for 2014', function() {
     });
 });
 
-describe('season list for 2014', function() {
-    it('has 8 seasons', function() {
+describe('season list', function() {
+    it('has 8 seasons in 2014', function() {
         var seasons = churchYear.seasons(2014);
+        assert.equal(seasons.length, 8);
+    });
+
+    it('has 8 seasons in 2003', function() {
+        var seasons = churchYear.seasons(2003);
         assert.equal(seasons.length, 8);
     });
 });
