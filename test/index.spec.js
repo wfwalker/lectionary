@@ -25,8 +25,8 @@ describe('season list', function() {
     });
 });
 
-describe('day list for 2014', function() {
-    it('has the right number of services', function() {
+describe('day list', function() {
+    it('has the right number of services in 2014', function() {
         var days = churchYear.days(2014);
         // console.log(days);
 
@@ -54,6 +54,11 @@ describe('day list for 2014', function() {
 
         // assert.deepEqual(dates, correctDates);
     });
+
+    it('does not throw an exception for 2007', function() {
+        var days = churchYear.days(2007);
+    });
+
 });
 
 describe('day list for individual months of 2014', function() {
