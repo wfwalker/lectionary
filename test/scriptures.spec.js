@@ -11,7 +11,7 @@ function checkString(inString) {
 }
 
 function checkSunday(inSunday, inName) {
-	console.log(JSON.stringify(inSunday));
+	// console.log(JSON.stringify(inSunday));
 
 	if (inSunday.complementary || inSunday.semicontinuous) {
 		assert.ok(checkString(inSunday.complementary.gospel), inName);

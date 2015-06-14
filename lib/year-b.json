@@ -110,7 +110,8 @@
     "Transfiguration": {
         "first": "2 Kings 2:1-12",
         "psalm": "Psalm 50:1-6",
-        "second": "2 Corinthians 4:3-6"
+        "second": "2 Corinthians 4:3-6",
+        "gospel": "Mark 9:2-9"
     },
     "Ash Wednesday": {
         "first": "Joel 2:1-2, 12-17 or Isaiah 58:1-12",
@@ -148,15 +149,11 @@
         "second": "Hebrews 5:5-10",
         "gospel": "John 12:20-33"
     },
-    "Lent 6": {
-        "first": "Mark 11:1-11 or John 12:12-16",
-        "psalm": "Passion",
-        "second": "Psalm 31:9-16",
-        "gospel": "Philippians 2:5-11"
-    },
     "Palms": {
-        "first": "Psalm 118:1-2, 19-29",
-        "psalm": "Mark 11:1-11 or John 12:12-16"
+        "first": "Isaiah 50:4-9a",
+        "psalm": "Psalm 31:9-16",
+        "second": "Philippians 2:5-11",
+        "gospel": "Mark 11:1-11 or John 12:12-16"
     },
     "Passion": {
         "first": "Isaiah 50:4-9a",
@@ -237,10 +234,10 @@
         "gospel": "John 3:1-17"
     },
     "Proper 3": {
-        "first": "May 24-28",
-        "psalm": "Hosea 2:14-20",
-        "second": "Psalm 103:1-13, 22",
-        "gospel": "2 Corinthians 3:1-6"
+        "first": "Hosea 2:14-20",
+        "psalm": "Psalm 103:1-13, 22",
+        "second": "2 Corinthians 3:1-6",
+        "gospel": "Mark 2:13-22"
     },
     "Proper 4": {
         "complementary": {
@@ -592,10 +589,10 @@
             "gospel": "Mark 13:1-8"
         },
         "semicontinuous": {
-            "first": "",
-            "psalm": "",
-            "second": "",
-            "gospel": ""
+            "first": "1 Samuel 1:4-20",
+            "psalm": "1 Samuel 2:1-10",
+            "second": "Hebrews 10:11-14 [15-18] 19-25",
+            "gospel": "Mark 13:1-8"
         }
     },
     "Proper 29": {

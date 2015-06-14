@@ -149,18 +149,17 @@
         "second": "Romans 8:6-11",
         "gospel": "John 11:1-45"
     },
-    "Lent 6": {
-        "first": "Palms"
-    },
     "Palms": {
-        "first": "Psalm 118:1-2, 19-29",
-        "psalm": "Mark 11:1-11 or John 12:12-16"
+        "first": "Isaiah 50:4-9a",
+        "psalm": "Psalm 31:9-16",
+        "second": "Philippians 2:5-11",
+        "gospel": "Matthew 21:1-11"
     },
     "Passion": {
         "first": "Isaiah 50:4-9a",
         "psalm": "Psalm 31:9-16",
         "second": "Philippians 2:5-11",
-        "gospel": "Mark 14:1—15:47 or Mark 15:1-39 [40-47]"
+        "gospel": "Matthew 26:14-27:66 or Matthew 27:11-54"
     },
     "Holy Thursday": {
         "first": "Exodus 12:1-4 [5-10] 11-14",
