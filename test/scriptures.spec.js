@@ -23,6 +23,12 @@ function checkSunday(inSunday, inName) {
 		assert.ok(checkString(inSunday.semicontinuous.psalm), inName);
 		assert.ok(checkString(inSunday.semicontinuous.first), inName);
 		assert.ok(checkString(inSunday.semicontinuous.second), inName);
+
+		// the psalm is always different between semicontinuous and complementary
+		assert.notEqual(inSunday.semicontinuous.psalm, inSunday.complementary.psalm, inName + ' different psalm');
+		// the second and gospel readings are the same between semicontinuous and complementary
+		assert.equal(inSunday.semicontinuous.second, inSunday.complementary.second, inName + ' matching second');
+		assert.equal(inSunday.semicontinuous.gospel, inSunday.complementary.gospel, inName + ' matching gospel');
 	} else {
 		assert.ok(checkString(inSunday.gospel), inName);
 		assert.ok(checkString(inSunday.psalm), inName);

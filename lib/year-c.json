@@ -529,10 +529,10 @@
     },
     "Proper 25": {
         "complementary": {
-            "first": "Sirach 35:12-17",
-            "psalm": "or Jeremiah 14:7-10, 19-22",
-            "second": "Psalm 84:1-7",
-            "gospel": "2 Timothy 4:6-8, 16-18"
+            "first": "Jeremiah 14:7-10, 19-22 or Sirach 35:12-17",
+            "psalm": "Psalm 84:1-7",
+            "second": "2 Timothy 4:6-8, 16-18",
+            "gospel": "Luke 18:9-14"
         },
         "semicontinuous": {
             "first": "Joel 2:23-32",
