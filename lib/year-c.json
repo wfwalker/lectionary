@@ -6,7 +6,7 @@
         "gospel": ["Luke 21:25-36"]
     },
     "Advent 2": {
-        "first": ["Baruch 5:1-9 or Malachi 3:1-4"],
+        "first": ["Baruch 5:1-9", "Malachi 3:1-4"],
         "psalm": ["Luke 1:68-79"],
         "second": ["Philippians 1:3-11"],
         "gospel": ["Luke 3:1-6"]
@@ -25,7 +25,7 @@
     },
     "Advent 4": {
         "first": ["Micah 5:2-5a"],
-        "psalm": ["Luke 1:46b-55 or Psalm 80:1-7"],
+        "psalm": ["Luke 1:46b-55", "Psalm 80:1-7"],
         "second": ["Hebrews 10:5-10"],
         "gospel": ["Luke 1:39-45 [46-55]"]
     },
@@ -102,7 +102,7 @@
         "gospel": ["Luke 6:27-38"]
     },
     "Epiphany 8": {
-        "first": ["Sirach 27:4-7 or Isaiah 55:10-13"],
+        "first": ["Sirach 27:4-7", "Isaiah 55:10-13"],
         "psalm": ["Psalm 92:1-4, 12-15"],
         "second": ["1 Corinthians 15:51-58"],
         "gospel": ["Luke 6:39-49"]
@@ -129,7 +129,7 @@
         "first": ["Genesis 15:1-12, 17-18"],
         "psalm": ["Psalm 27"],
         "second": ["Philippians 3:17—4:1"],
-        "gospel": ["Luke 13:31-35 or Luke 9:28-36"]
+        "gospel": ["Luke 13:31-35", "Luke 9:28-36"]
     },
     "Lent 3": {
         "first": ["Isaiah 55:1-9"],
@@ -159,7 +159,7 @@
         "first": ["Isaiah 50:4-9a"],
         "psalm": ["Psalm 31:9-16"],
         "second": ["Philippians 2:5-11"],
-        "gospel": ["Luke 22:14-23:56 or Luke 23:1-49"]
+        "gospel": ["Luke 22:14-23:56", "Luke 23:1-49"]
     },
     "Holy Thursday": {
         "first": ["Exodus 12:1-4 [5-10] 11-14"],
@@ -170,18 +170,18 @@
     "Good Friday": {
         "first": ["Isaiah 52:13—53:12"],
         "psalm": ["Psalm 22"],
-        "second": ["Hebrews 10:16-25 or Hebrews 4:14-16; 5:7-9"],
+        "second": ["Hebrews 10:16-25", "Hebrews 4:14-16; 5:7-9"],
         "gospel": ["John 18:1—19:42"]
     },
     "Easter Day": {
-        "first": ["Acts 10:34-43 or Isaiah 25:6-9"],
+        "first": ["Acts 10:34-43", "Isaiah 25:6-9"],
         "psalm": ["Psalm 118:1-2, 14-24"],
-        "second": ["1 Corinthians 15:1-11 or Acts 10:34-43"],
-        "gospel": ["John 20:1-18 or Mark 16:1-8"]
+        "second": ["1 Corinthians 15:1-11", "Acts 10:34-43"],
+        "gospel": ["John 20:1-18", "Mark 16:1-8"]
     },
     "Easter 2": {
         "first": ["Acts 5:27-32"],
-        "psalm": ["Psalm 118:14-29 or Psalm 150"],
+        "psalm": ["Psalm 118:14-29", "Psalm 150"],
         "second": ["Revelation 1:4-8"],
         "gospel": ["John 20:19-31"]
     },
@@ -207,7 +207,7 @@
         "first": ["Acts 16:9-15"],
         "psalm": ["Psalm 67"],
         "second": ["Revelation 21:10, 22—22:5"],
-        "gospel": ["John 14:23-29 or "]
+        "gospel": ["John 14:23-29", ""]
     },
     "Easter 7": {
         "first": ["Acts 16:16-34"],
@@ -216,9 +216,9 @@
         "gospel": ["John 17:20-26"]
     },
     "Pentecost Day": {
-        "first": ["Acts 2:1-21 or Genesis 11:1-9"],
+        "first": ["Acts 2:1-21", "Genesis 11:1-9"],
         "psalm": ["Psalm 104:24-34, 35b"],
-        "second": ["Romans 8:14-17 or Acts 2:1-21"],
+        "second": ["Romans 8:14-17", "Acts 2:1-21"],
         "gospel": ["John 14:8-17 [25-27]"]
     },
     "Trinity": {
@@ -228,7 +228,7 @@
         "gospel": ["John 16:12-15"]
     },
     "Pentecost 2": {
-        "first": ["Sirach 27:4-7 or Isaiah 55:10-13"],
+        "first": ["Sirach 27:4-7", "Isaiah 55:10-13"],
         "psalm": ["Psalm 92:1-4, 12-15"],
         "second": ["1 Corinthians 15:51-58"],
         "gospel": ["Luke 6:39-49"]
@@ -417,7 +417,7 @@
     },
     "Pentecost 16": {
         "complementary": {
-            "first": ["Sirach 10:12-18 or Proverbs 25:6-7"],
+            "first": ["Sirach 10:12-18", "Proverbs 25:6-7"],
             "psalm": ["Psalm 112"],
             "second": ["Hebrews 13:1-8, 15-16"],
             "gospel": ["Luke 14:1, 7-14"]
@@ -494,7 +494,7 @@
         },
         "semicontinuous": {
             "first": ["Lamentations 1:1-6"],
-            "psalm": ["Lamentations 3:19-26 or Psalm 137"],
+            "psalm": ["Lamentations 3:19-26", "Psalm 137"],
             "second": ["2 Timothy 1:1-14"],
             "gospel": ["Luke 17:5-10"]
         }
@@ -535,7 +535,7 @@
     },
     "Pentecost 24": {
         "complementary": {
-            "first": ["Jeremiah 14:7-10, 19-22 or Sirach 35:12-17"],
+            "first": ["Jeremiah 14:7-10, 19-22", "Sirach 35:12-17"],
             "psalm": ["Psalm 84:1-7"],
             "second": ["2 Timothy 4:6-8, 16-18"],
             "gospel": ["Luke 18:9-14"]
@@ -570,7 +570,7 @@
         },
         "semicontinuous": {
             "first": ["Haggai 1:15b—2:9"],
-            "psalm": ["Psalm 145:1-5, 17-21 or Psalm 98"],
+            "psalm": ["Psalm 145:1-5, 17-21", "Psalm 98"],
             "second": ["2 Thessalonians 2:1-5, 13-17"],
             "gospel": ["Luke 20:27-38"]
         }
