@@ -42,7 +42,7 @@
         "gospel": ["Luke 2:[1-7] 8-20"]
     },
     "Christmas 1": {
-        "first": ["Isaiah 61:10—62:3"],
+        "first": ["Isaiah 61:10-62:3"],
         "psalm": ["Psalm 148"],
         "second": ["Galatians 4:4-7"],
         "gospel": ["Luke 2:22-40"]
@@ -111,7 +111,7 @@
         "first": ["Deuteronomy 5:12-15"],
         "psalm": ["Psalm 81:1-10"],
         "second": ["2 Corinthians 4:5-12"],
-        "gospel": ["Mark 2:23—3:6"]
+        "gospel": ["Mark 2:23-3:6"]
     },
     "Transfiguration": {
         "first": ["2 Kings 2:1-12"],
@@ -122,7 +122,7 @@
     "Ash Wednesday": {
         "first": ["Joel 2:1-2, 12-17", "Isaiah 58:1-12"],
         "psalm": ["Psalm 51:1-17"],
-        "second": ["2 Corinthians 5:20b—6:10"],
+        "second": ["2 Corinthians 5:20b-6:10"],
         "gospel": ["Matthew 6:1-6, 16-21"]
     },
     "Lent 1": {
@@ -165,7 +165,7 @@
         "first": ["Isaiah 50:4-9a"],
         "psalm": ["Psalm 31:9-16"],
         "second": ["Philippians 2:5-11"],
-        "gospel": ["Mark 14:1—15:47", "Mark 15:1-39 [40-47]"]
+        "gospel": ["Mark 14:1-15:47", "Mark 15:1-39 [40-47]"]
     },
     "Holy Thursday": {
         "first": ["Exodus 12:1-4 [5-10] 11-14"],
@@ -174,10 +174,10 @@
         "gospel": ["John 13:1-17, 31b-35"]
     },
     "Good Friday": {
-        "first": ["Isaiah 52:13—53:12"],
+        "first": ["Isaiah 52:13-53:12"],
         "psalm": ["Psalm 22"],
         "second": ["Hebrews 10:16-25", "Hebrews 4:14-16; 5:7-9"],
-        "gospel": ["John 18:1—19:42"]
+        "gospel": ["John 18:1-19:42"]
     },
     "Easter Day": {
         "first": ["Acts 10:34-43", "Isaiah 25:6-9"],
@@ -188,7 +188,7 @@
     "Easter 2": {
         "first": ["Acts 4:32-35"],
         "psalm": ["Psalm 133"],
-        "second": ["1 John 1:1—2:2"],
+        "second": ["1 John 1:1-2:2"],
         "gospel": ["John 20:19-31"]
     },
     "Easter 3": {
@@ -250,26 +250,26 @@
             "first": ["Deuteronomy 5:12-15"],
             "psalm": ["Psalm 81:1-10"],
             "second": ["2 Corinthians 4:5-12"],
-            "gospel": ["Mark 2:23—3:6"]
+            "gospel": ["Mark 2:23-3:6"]
         },
         "semicontinuous": {
             "first": ["1 Samuel 3:1-10 [11-20]"],
             "psalm": ["Psalm 139:1-6, 13-18"],
             "second": ["2 Corinthians 4:5-12"],
-            "gospel": ["Mark 2:23—3:6"]
+            "gospel": ["Mark 2:23-3:6"]
         }
     },
     "Pentecost 4": {
         "complementary": {
             "first": ["Genesis 3:8-15"],
             "psalm": ["Psalm 130"],
-            "second": ["2 Corinthians 4:13—5:1"],
+            "second": ["2 Corinthians 4:13-5:1"],
             "gospel": ["Mark 3:20-35"]
         },
         "semicontinuous": {
             "first": ["1 Samuel 8:4-11 [12-15] 16-20 [11:14-15]"],
             "psalm": ["Psalm 138"],
-            "second": ["2 Corinthians 4:13—5:1"],
+            "second": ["2 Corinthians 4:13-5:1"],
             "gospel": ["Mark 3:20-35"]
         }
     },
@@ -281,7 +281,7 @@
             "gospel": ["Mark 4:26-34"]
         },
         "semicontinuous": {
-            "first": ["1 Samuel 15:34—16:13"],
+            "first": ["1 Samuel 15:34-16:13"],
             "psalm": ["Psalm 20"],
             "second": ["2 Corinthians 5:6-10 [11-13] 14-17"],
             "gospel": ["Mark 4:26-34"]
@@ -295,7 +295,7 @@
             "gospel": ["Mark 4:35-41"]
         },
         "semicontinuous": {
-            "first": ["1 Samuel 17:[1a, 4-11, 19-23] 32-49", "1 Samuel 17:57—18:5, 10-16"],
+            "first": ["1 Samuel 17:[1a, 4-11, 19-23] 32-49", "1 Samuel 17:57-18:5, 10-16"],
             "psalm": ["Psalm 9:9-20", "Psalm 133"],
             "second": ["2 Corinthians 6:1-13"],
             "gospel": ["Mark 4:35-41"]
@@ -379,7 +379,7 @@
             "gospel": ["John 6:24-35"]
         },
         "semicontinuous": {
-            "first": ["2 Samuel 11:26—12:13a"],
+            "first": ["2 Samuel 11:26-12:13a"],
             "psalm": ["Psalm 51:1-12"],
             "second": ["Ephesians 4:1-16"],
             "gospel": ["John 6:24-35"]
@@ -389,13 +389,13 @@
         "complementary": {
             "first": ["1 Kings 19:4-8"],
             "psalm": ["Psalm 34:1-8"],
-            "second": ["Ephesians 4:25—5:2"],
+            "second": ["Ephesians 4:25-5:2"],
             "gospel": ["John 6:35, 41-51"]
         },
         "semicontinuous": {
             "first": ["2 Samuel 18:5-9, 15, 31-33"],
             "psalm": ["Psalm 130"],
-            "second": ["Ephesians 4:25—5:2"],
+            "second": ["Ephesians 4:25-5:2"],
             "gospel": ["John 6:35, 41-51"]
         }
     },
@@ -473,13 +473,13 @@
         "complementary": {
             "first": ["Jeremiah 11:18-20"],
             "psalm": ["Psalm 54"],
-            "second": ["James 3:13—4:3, 7-8a"],
+            "second": ["James 3:13-4:3, 7-8a"],
             "gospel": ["Mark 9:30-37"]
         },
         "semicontinuous": {
             "first": ["Proverbs 31:10-31"],
             "psalm": ["Psalm 1"],
-            "second": ["James 3:13—4:3, 7-8a"],
+            "second": ["James 3:13-4:3, 7-8a"],
             "gospel": ["Mark 9:30-37"]
         }
     },
